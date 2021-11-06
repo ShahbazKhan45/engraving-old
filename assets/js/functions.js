@@ -66,36 +66,6 @@ $(document).ready(function () {
         }
     });
 
-    // $("#contactform").validate({});
-    // $(".validate-popupform").validate({});
-    // $(".validate-ftr").validate({});
-    // $(".form-section1").validate({});
-    // $(".form-section2").validate({});
-    // $(".form-section3").validate({});
-    // $(".popupform_cs").validate();
-    // $("#popupform_td form").validate();
-    // $(".popupform_td").validate();
-    // $(".popupform_tr").validate();
-    // $(".step1_valdate").validate();
-    // $(".step2_valdate").validate();
-    // $(".step3_valdate").validate();
-    // $(".step4_valdate").validate();
-    // $(".step5_valdate").validate();
-    // $(".step6_valdate").validate();
-    // $(".step7_valdate").validate();
-    // $(".popup-bounce").validate();
-    // $(".checkform").validate();
-    // $(".validate-popupform").validate();
-    // $(".popupform_llp").validate();
-    // $(".popupform_md").validate();
-
-    // $(".modal-body").mCustomScrollbar({
-    //     autoHideScrollbar: true,
-    // });
-
-
-
-
     $('#list-btn').click(function () {
 
         document.getElementById('list-btn').style.display = "none";
@@ -181,12 +151,6 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, '300');
     });
 
-    // $(window).scroll(function () {
-    //     var sticky = $('body'),
-    //         scroll = $(window).scrollTop();
-    //     if (scroll >= 600) sticky.addClass('fixed');
-    //     else sticky.removeClass('fixed');
-    // });
 
 
     // init Isotope
@@ -297,11 +261,4 @@ $(document).ready(function () {
     end*/
 
 });
-
-
-// let notShow = document.getElementById("banner-video").style.display = "none";
-// setTimeout(function () {
-//     document.getElementById("banner-video").style.display = "block";
-// }, 9000)
-
 
