@@ -66,6 +66,10 @@ $(document).ready(function () {
         }
     });
 
+  
+
+
+
     $('#list-btn').click(function () {
 
         document.getElementById('list-btn').style.display = "none";
@@ -151,6 +155,12 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, '300');
     });
 
+    // $(window).scroll(function () {
+    //     var sticky = $('body'),
+    //         scroll = $(window).scrollTop();
+    //     if (scroll >= 600) sticky.addClass('fixed');
+    //     else sticky.removeClass('fixed');
+    // });
 
 
     // init Isotope
@@ -261,4 +271,8 @@ $(document).ready(function () {
     end*/
 
 });
+
+
+
+
 
